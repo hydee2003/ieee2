@@ -9,8 +9,8 @@ div img{
 .img1{
    padding-left: 25px;
    padding-top: 25px;
-   height: 350px;
-   width:350px;
+   height: 280px;
+   width:280px;
    border: 1px solid hsl(216, 50%, 16%) ;
    border-radius: 9px;
 }
@@ -19,51 +19,61 @@ div img{
      height: 18px;
      width: 14px;
  }
- 
   .img3{
-      padding-top: 900px;
-      padding-left: 100px;
-      height: 22px;
-     width: 22px;
+      padding-left:80px;
+      height:20px;
+      width:20px;
   }
   .img4{
-    margin-left: 600px;
+    margin-left: 27px;
     margin-top: 20px;
- height: 50px;
- width: 50px;
+ height: 35px;
+ width: 35px; 
+ border: 1px solid white;
+ border-radius: 50%;
  }
- h1{
-    color: aliceblue;
-    font-family:Arial;
-    font-size: 20px;
-    padding-left: 25px;
-}
+ 
 .all{ 
 border: solid 1px hsl(216, 50%, 16%);
 background-color:  hsl(216, 50%, 16%);
-width: 400;
-height: 700;
-margin-top: 150px;
+width: 330;
+height: 530;
+margin-top: 100px;
 margin-left: 500px;
 border-radius: 10px;
 }
 .all1{
-    display: inline;
+    display:flex;
+}
+.final{
+    display: flex;
+}
+.total{
+    display: flex;
+}
+h1{
+    color: aliceblue;
+    font-family:Arial;
+    font-size: 15px;
+    padding-left: 25px;
 }
 .our{
     color:  hsl(215, 51%, 70%);
-    font-size: 18px;
- padding-left: 25px;
- font-family:'Times New Roman', Times, serif ;}
+    font-size: 15px;
+ padding-left: 25px;}
 
- .et{ color:hsl(178, 100%, 50%);}
-  .day{color: hsl(215, 51%, 70%)}
+ .et{ color:hsl(178, 100%, 50%);
+    padding-left: 5px;
+font-size: 15px;}
+  .day{
+    font-size: 15px;
+     padding-left: 5px; 
+    color: hsl(215, 51%, 70%);}
 
 
   .line{
       border-bottom: 1px solid white;
-      display: block;
-      padding-left:600px ;
+      width: 300px;
     }
    .cr{
        color:hsl(215, 51%, 70%) ;
@@ -74,7 +84,5 @@ border-radius: 10px;
 .ju{
     color: azure;
     padding-left: 4px;
-}
-.final{
-    display: inline block;
+    padding-top: 30px;
 }
